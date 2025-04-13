@@ -30,15 +30,23 @@ html, body {
   height: 100%;
   background: black;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   z-index: 1;
   color: white;
+  padding: 2rem;
 }
 
 .overlay h1 {
-  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-size: clamp(1.5rem, 5vw + 1rem, 4rem);
   line-height: 1.4;
   width: 100%;
+  max-width: 90%;
+  margin: auto;
+  padding: 0 1rem;
 }
+
 
 /* Cutout text styling */
 .cutout {
