@@ -30,12 +30,14 @@ html, body {
   height: 100%;
   background: black;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
-  text-align: center;
   z-index: 1;
   color: white;
+}
+
+.overlay h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  line-height: 1.4;
+  width: 100%;
 }
 
 /* Cutout text styling */
@@ -43,6 +45,6 @@ html, body {
   font-weight: bold;
   position: relative;
   display: inline-block;
-  color: white;
+  color: transparent;
   padding: 2px 4px; /* helpful for readability */
 }
